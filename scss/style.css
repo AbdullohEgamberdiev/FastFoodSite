@@ -1,0 +1,1798 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+
+.container {
+  padding: 0px 40px;
+}
+
+header {
+  border: 1px solid none;
+  border-top: 1px solid rgb(122, 122, 122);
+  border-bottom: 1px solid rgb(122, 122, 122);
+  max-width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  background: rgb(241, 240, 238);
+}
+header .site__title {
+  padding: 10px 0px;
+  font-size: 40px;
+  font-family: sans-serif;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+header .site__name__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 15px;
+}
+header .title__img {
+  max-width: 70px;
+  max-height: 70px;
+  cursor: pointer;
+}
+
+main {
+  border: 1px solid rgb(241, 240, 238);
+  max-width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  background: rgb(241, 240, 238);
+}
+main .main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+  padding: 70px 0px;
+}
+main .main .main__first {
+  flex: 1;
+}
+main .main .main__first .main__texts__box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main .main .main__first .main__texts__box .main__title {
+  font-size: 55px;
+}
+main .main .main__first .main__texts__box .main__text {
+  font-size: 15px;
+  line-height: 20px;
+}
+main .main .main__second {
+  flex: 1;
+}
+main .main .main__img {
+  max-width: 500px;
+  max-height: 370px;
+}
+
+.products__type {
+  background: red;
+  border: 1px solid red;
+  max-width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.products__type .products__type__wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: center;
+  padding: 20px 0;
+}
+.products__type .ikkiga__bolinadigan__box {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.products__type .products__type__box {
+  border-radius: 5px;
+  max-width: 150px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgb(0, 0, 0);
+}
+.products__type .products__type__box:active {
+  box-shadow: none;
+}
+.products__type .products__type__box .products__type__img {
+  width: 120px;
+  height: 120px;
+}
+.products__type .products__type__box .products__type__title {
+  text-align: center;
+  font-size: 25px;
+  padding-top: 15px;
+  color: white;
+}
+.products__type .products__type__box .products__type__text {
+  color: rgb(202, 202, 202);
+  text-align: center;
+  font-size: 15px;
+  padding-top: 10px;
+}
+.products__type .products__type__box .products__type__link {
+  border: 1px solid white;
+  background: white;
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  transition: all 0.3s ease;
+}
+.products__type .products__type__box .products__type__link:hover {
+  background: red;
+  color: white;
+}
+
+.burgers__section {
+  border: 1px solid rgb(241, 240, 238);
+  max-width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  background: rgb(241, 240, 238);
+}
+.burgers__section .burgers__title {
+  text-align: center;
+  padding: 50px 0px;
+  font-size: 45px;
+}
+.burgers__section .burgers__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 40px;
+}
+.burgers__section .burger__card__box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+.burgers__section #burger__card {
+  background: white;
+  border-radius: 10px;
+  max-width: 250px;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.burgers__section #burger__card:hover {
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+}
+.burgers__section #burger__card.active {
+  border: 1px solid green;
+}
+.burgers__section .burger__order__title {
+  font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.burgers__section .burger__order__text {
+  font-size: 20px;
+}
+.burgers__section .burger__card__img {
+  width: 150px;
+  height: 150px;
+}
+.burgers__section .burger__card__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.burgers__section .burger__card__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.burgers__section .cheeseburger__card__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.burgers__section .cheeseburger__card__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.burgers__section .chicken-burger__card__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.burgers__section .chicken-burger__card__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.burgers__section .doner-burger__card__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.burgers__section .doner-burger__card__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.burgers__section .turkeyburger__card__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.burgers__section .turkeyburger__card__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.burgers__section .fish-burger__card__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.burgers__section .fish-burger__card__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.burgers__section .double__burger__card__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.burgers__section .double__burger__card__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.burgers__section .mushroom-burger__card__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.burgers__section .mushroom-burger__card__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.burgers__section .bbq__burger__card__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.burgers__section .bbq__burger__card__btn:hover {
+  background: rgb(220, 220, 220);
+}
+
+.pizza__section {
+  border: 1px solid rgb(255, 170, 0);
+  max-width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  background: rgb(255, 170, 0);
+}
+.pizza__section .pizza__title {
+  text-align: center;
+  padding: 50px 0px;
+  font-size: 45px;
+}
+.pizza__section .pizzas__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 40px;
+}
+.pizza__section .pizzas__wrapper .pizza__card__box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+.pizza__section .pizzas__wrapper #pizza__card {
+  background: white;
+  border-radius: 10px;
+  max-width: 250px;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.pizza__section .pizzas__wrapper #pizza__card:hover {
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5);
+}
+.pizza__section .pizzas__wrapper .pizza__card__img {
+  width: 150px;
+  height: 150px;
+}
+.pizza__section .pizzas__wrapper .pizza__order__title {
+  font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.pizza__section .pizzas__wrapper .pizza__order__text {
+  font-size: 20px;
+}
+.pizza__section .pizzas__wrapper .bianca-pizza__card__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.pizza__section .pizzas__wrapper .bianca-pizza__card__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.pizza__section .pizzas__wrapper .salad-pizza__card__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.pizza__section .pizzas__wrapper .salad-pizza__card__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.pizza__section .pizzas__wrapper .kebab-pizza__card__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.pizza__section .pizzas__wrapper .kebab-pizza__card__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.pizza__section .pizzas__wrapper .cauliflower-pizza__card__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.pizza__section .pizzas__wrapper .cauliflower-pizza__card__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.pizza__section .pizzas__wrapper .chicken-pizza__card__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.pizza__section .pizzas__wrapper .chicken-pizza__card__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.pizza__section .pizzas__wrapper .pepperoni-pizza__card__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.pizza__section .pizzas__wrapper .pepperoni-pizza__card__btn:hover {
+  background: rgb(220, 220, 220);
+}
+
+.hotdog__section {
+  border: 1px solid rgb(241, 240, 238);
+  max-width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  background: rgb(241, 240, 238);
+}
+.hotdog__section .hotdog__sec__title {
+  text-align: center;
+  padding: 50px 0px;
+  font-size: 45px;
+}
+.hotdog__section .hotdog__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 40px;
+}
+.hotdog__section .hotdog__wrapper .hotdog__card__box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+.hotdog__section .hotdog__wrapper .hotdog__card {
+  background: white;
+  border-radius: 10px;
+  max-width: 250px;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.hotdog__section .hotdog__wrapper .hotdog__card:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+.hotdog__section .hotdog__wrapper .hotdog__img {
+  width: 170px;
+  height: 150px;
+}
+.hotdog__section .hotdog__wrapper .hotdog__title {
+  font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.hotdog__section .hotdog__wrapper .hotdog__text {
+  font-size: 20px;
+}
+.hotdog__section .hotdog__wrapper .bbq-hotdog__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.hotdog__section .hotdog__wrapper .bbq-hotdog__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.hotdog__section .hotdog__wrapper .montrealdog__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.hotdog__section .hotdog__wrapper .montrealdog__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.hotdog__section .hotdog__wrapper .corndog__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.hotdog__section .hotdog__wrapper .corndog__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.hotdog__section .hotdog__wrapper .dodger-dog__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.hotdog__section .hotdog__wrapper .dodger-dog__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.hotdog__section .hotdog__wrapper .chicago-hotdog__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.hotdog__section .hotdog__wrapper .chicago-hotdog__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.hotdog__section .hotdog__wrapper .miniPotato-dog__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.hotdog__section .hotdog__wrapper .miniPotato-dog__btn:hover {
+  background: rgb(220, 220, 220);
+}
+
+.fries__section {
+  border: 1px solid rgb(2, 172, 19);
+  max-width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  background: rgb(2, 172, 19);
+}
+.fries__section .fries__name__title {
+  text-align: center;
+  padding: 50px 0px;
+  font-size: 45px;
+}
+.fries__section .fries__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 40px;
+}
+.fries__section .fries__card__box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+.fries__section .fries__card {
+  background: white;
+  border-radius: 10px;
+  max-width: 250px;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.fries__section .fries__card:hover {
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5);
+}
+.fries__section .fries__img {
+  width: 150px;
+  height: 150px;
+}
+.fries__section .fries__title {
+  font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.fries__section .fries__text {
+  font-size: 20px;
+}
+.fries__section .wafflefries__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.fries__section .wafflefries__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.fries__section .steak-fries__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.fries__section .steak-fries__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.fries__section .curlyfries__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.fries__section .curlyfries__btn:hover {
+  background: rgb(220, 220, 220);
+}
+
+.shawarma__section {
+  border: 1px solid rgb(241, 240, 238);
+  max-width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  background: rgb(241, 240, 238);
+}
+.shawarma__section .shawarma__sec__title {
+  text-align: center;
+  padding: 50px 0px;
+  font-size: 45px;
+}
+.shawarma__section .shawarma__card__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 40px;
+}
+.shawarma__section .shawarma__card__box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+.shawarma__section .shawarma__card {
+  background: white;
+  border-radius: 10px;
+  max-width: 250px;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.shawarma__section .shawarma__card:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+.shawarma__section .shawarma__img {
+  width: 200px;
+  height: 150px;
+}
+.shawarma__section .shawarma__title {
+  font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.shawarma__section .shawarma__text {
+  font-size: 20px;
+}
+.shawarma__section .beef__shawarma__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.shawarma__section .beef__shawarma__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.shawarma__section .chicken__shawarma__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.shawarma__section .chicken__shawarma__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.shawarma__section .cheese__shawarma__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.shawarma__section .cheese__shawarma__btn:hover {
+  background: rgb(220, 220, 220);
+}
+
+.sauce__section {
+  border: 1px solid rgb(255, 170, 0);
+  max-width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  background: rgb(255, 170, 0);
+}
+.sauce__section .sauce__sec__title {
+  text-align: center;
+  padding: 50px 0px;
+  font-size: 45px;
+}
+.sauce__section .sauce__card__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 40px;
+}
+.sauce__section .sauce__card__box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+.sauce__section .sauce__card {
+  background: white;
+  border-radius: 10px;
+  max-width: 250px;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.sauce__section .sauce__card:hover {
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5);
+}
+.sauce__section .sauce__img {
+  width: 200px;
+  height: 140px;
+}
+.sauce__section .sauce__title {
+  font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.sauce__section .sauce__text {
+  font-size: 20px;
+}
+.sauce__section .sauce__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.sauce__section .sauce__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.sauce__section .mustard__sauce__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.sauce__section .mustard__sauce__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.sauce__section .wasabi__sauce__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.sauce__section .wasabi__sauce__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.sauce__section .chili__sauce__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.sauce__section .chili__sauce__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.sauce__section .bbq__sauce__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.sauce__section .bbq__sauce__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.sauce__section .mayonnaise__sauce__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.sauce__section .mayonnaise__sauce__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.sauce__section .tomato__sauce__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.sauce__section .tomato__sauce__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.sauce__section .soy__sauce__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.sauce__section .soy__sauce__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.sauce__section .garlic__sauce__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.sauce__section .garlic__sauce__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.sauce__section .bolognese__sauce__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.sauce__section .bolognese__sauce__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.sauce__section .chocolate__sauce__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.sauce__section .chocolate__sauce__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.sauce__section .caramel__sauce__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.sauce__section .caramel__sauce__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.sauce__section .cocktail__sauce__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.sauce__section .cocktail__sauce__btn:hover {
+  background: rgb(220, 220, 220);
+}
+
+.bisquit__section {
+  border: 1px solid rgb(153, 255, 185);
+  max-width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  background: rgb(153, 255, 185);
+}
+.bisquit__section .bisquit__sec__title {
+  text-align: center;
+  padding: 50px 0px;
+  font-size: 45px;
+}
+.bisquit__section .bisquit__card__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 40px;
+}
+.bisquit__section .bisquit__card__box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+.bisquit__section .bisquit__card {
+  background: white;
+  border-radius: 10px;
+  max-width: 250px;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.bisquit__section .bisquit__card:hover {
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5);
+}
+.bisquit__section .bisquit__img {
+  width: 150px;
+  height: 150px;
+}
+.bisquit__section .bisquit__title {
+  font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.bisquit__section .bisquit__text {
+  font-size: 20px;
+}
+.bisquit__section .bisquit__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.bisquit__section .bisquit__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.bisquit__section .banana__bisquit__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.bisquit__section .banana__bisquit__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.bisquit__section .strawberry__bisquit__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.bisquit__section .strawberry__bisquit__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.bisquit__section .rasberry__bisquit__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.bisquit__section .rasberry__bisquit__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.bisquit__section .chocolate__bisquit__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.bisquit__section .chocolate__bisquit__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.bisquit__section .multi__bisquit__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.bisquit__section .multi__bisquit__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.bisquit__section .lemon__bisquit__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.bisquit__section .lemon__bisquit__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.bisquit__section .blue__bisquit__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.bisquit__section .blue__bisquit__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.bisquit__section .apple__bisquit__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.bisquit__section .apple__bisquit__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.bisquit__section .pineapple__bisquit__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.bisquit__section .pineapple__bisquit__btn:hover {
+  background: rgb(220, 220, 220);
+}
+
+.drinks__section {
+  border: 1px solid rgb(0, 204, 219);
+  max-width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  background: rgb(0, 204, 219);
+}
+.drinks__section .drinks__sec__title {
+  text-align: center;
+  padding: 50px 0px;
+  font-size: 45px;
+}
+.drinks__section .drinks__card__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 40px;
+}
+.drinks__section .drinks__card__box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+.drinks__section .drinks__card {
+  background: white;
+  border-radius: 10px;
+  max-width: 250px;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.drinks__section .drinks__card:hover {
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5);
+}
+.drinks__section .drinks__img {
+  width: 40px;
+  height: 150px;
+}
+.drinks__section .fanta__drinks__img {
+  width: 150px;
+  height: 150px;
+}
+.drinks__section .pepsi__drinks__img {
+  width: 110px;
+  height: 150px;
+}
+.drinks__section .lipton__drinks__img {
+  width: 150px;
+  height: 150px;
+}
+.drinks__section .pulpy__drinks__img {
+  width: 50px;
+  height: 150px;
+}
+.drinks__section .dew__drinks__img {
+  width: 50px;
+  height: 150px;
+}
+.drinks__section .drinks__title {
+  font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.drinks__section .drinks__text {
+  font-size: 20px;
+}
+.drinks__section .drinks__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.drinks__section .drinks__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.drinks__section .fanta05__drinks__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.drinks__section .fanta05__drinks__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.drinks__section .fanta15__drinks__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.drinks__section .fanta15__drinks__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.drinks__section .fanta1__drinks__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.drinks__section .fanta1__drinks__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.drinks__section .cola15__drinks__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.drinks__section .cola15__drinks__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.drinks__section .cola1__drinks__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.drinks__section .cola1__drinks__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.drinks__section .cola05__drinks__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.drinks__section .cola05__drinks__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.drinks__section .pepsi15__drinks__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.drinks__section .pepsi15__drinks__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.drinks__section .pepsi1__drinks__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.drinks__section .pepsi1__drinks__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.drinks__section .pepsi05__drinks__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.drinks__section .pepsi05__drinks__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.drinks__section .lipton15__drinks__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.drinks__section .lipton15__drinks__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.drinks__section .lipton1__drinks__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.drinks__section .lipton1__drinks__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.drinks__section .lipton05__drinks__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.drinks__section .lipton05__drinks__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.drinks__section .dew15__drinks__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.drinks__section .dew15__drinks__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.drinks__section .dew1__drinks__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.drinks__section .dew1__drinks__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.drinks__section .dew05__drinks__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.drinks__section .dew05__drinks__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.drinks__section .pulpy15__drinks__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.drinks__section .pulpy15__drinks__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.drinks__section .pulpy1__drinks__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.drinks__section .pulpy1__drinks__btn:hover {
+  background: rgb(220, 220, 220);
+}
+.drinks__section .pulpy05__drinks__btn {
+  border: 1px solid rgb(241, 240, 238);
+  background: rgb(241, 240, 238);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.drinks__section .pulpy05__drinks__btn:hover {
+  background: rgb(220, 220, 220);
+}
+
+.orders {
+  border: 1px solid rgb(240, 180, 255);
+  max-width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  background: rgb(240, 180, 255);
+}
+.orders .order__title {
+  text-align: center;
+  padding: 50px 0px;
+  font-size: 45px;
+}
+.orders form {
+  border: 1px solid;
+  max-width: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 30px;
+}
+.orders #email {
+  border: 3px solid;
+  width: 240px;
+  height: 50px;
+  padding: 5px;
+}
+.orders #name {
+  border: 3px solid;
+  width: 240px;
+  height: 50px;
+  padding: 5px;
+}
+.orders #phone {
+  border: 3px solid;
+  width: 240px;
+  height: 50px;
+  padding: 5px;
+}
+.orders #message {
+  border: 3px solid;
+  width: 230px;
+  height: auto;
+  padding: 10px;
+  background-color: white;
+}
+.orders button {
+  border: 1px solid orange;
+  border-radius: 30px;
+  color: white;
+  background: red;
+  font-size: 20px;
+  width: 150px;
+  height: 50px;
+}
+.orders .order-list {
+  font-size: 15px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1050px) {
+  .burger__card__box {
+    flex-direction: column !important;
+  }
+  .pizza__card__box {
+    flex-direction: column !important;
+  }
+  .hotdog__card__box {
+    flex-direction: column !important;
+  }
+  .fries__card__box {
+    flex-direction: column !important;
+  }
+  .shawarma__card__box {
+    flex-direction: column !important;
+  }
+  .sauce__card__box {
+    flex-direction: column !important;
+  }
+  .bisquit__card__box {
+    flex-direction: column !important;
+  }
+  .drinks__card__box {
+    flex-direction: column !important;
+  }
+}
+@media screen and (max-width: 900px) {
+  .main__img {
+    width: 350px;
+  }
+  .products__type__wrapper {
+    flex-direction: column !important;
+  }
+}
+@media screen and (max-width: 800px) {
+  .main__img {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .main {
+    flex-direction: column !important;
+  }
+  .main__img {
+    width: 400px;
+  }
+  .main__title {
+    text-align: center;
+  }
+  .main__text {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 500px) {
+  .ikkiga__bolinadigan__box {
+    flex-direction: column !important;
+  }
+}
+@media screen and (max-width: 450px) {
+  .main__img {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .site__title {
+    font-size: 30px !important;
+    padding: 20px 0px !important;
+  }
+  .title__img {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .main__img {
+    width: 240px;
+  }
+  .main__title {
+    font-size: 30px !important;
+  }
+  .site__title {
+    font-size: 25px !important;
+  }
+  .title__img {
+    width: 50px;
+    height: 50px;
+  }
+}/*# sourceMappingURL=style.css.map */
